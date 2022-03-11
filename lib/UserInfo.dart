@@ -168,7 +168,7 @@ class _UserScreenState extends State<UserScreen> {
     if (_show) {
       return BottomSheet(
         constraints: const BoxConstraints.tightFor(
-            width: double.infinity, height: 250),
+            width: double.infinity, height: 580),
         backgroundColor: Theme
             .of(context)
             .backgroundColor,
